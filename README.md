@@ -1,1 +1,1 @@
-# angular-training-sessions
+# angular-sessions

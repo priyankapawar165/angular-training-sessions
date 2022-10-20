@@ -1,0 +1,31 @@
+<p>student works!</p>
+<div>
+    <h2>Interpolation</h2>
+{{title}}
+</div>
+
+<div>
+    <h2>Event Binding</h2>
+   <button (click)="getStudentList()">Student List</button>
+</div> 
+<div>
+Student Name: <div *ngFor="let s of studentList">
+    {{s}}
+</div>
+     
+</div> 
+
+ <div>
+    <h2>Property Binding</h2>
+   <input [value]="schoolName">
+</div> 
+
+ <div>
+    <h2> Two way data binding</h2>
+    
+        <label>Enter Your name:</label>
+        <input type="text" [(ngModel)]="studentName">
+        {{studentName}}
+    
+  
+</div> 

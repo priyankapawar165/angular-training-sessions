@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'life-cycle-hook';
+
+  checkHook :  boolean = false;
+  checkLifeCycleHook(){
+    this.checkHook = true;
+
+  }
 }
